@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login GPT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <!-- Imagem do Logo -->
+            <img src="img/logo.png" alt="Logo" class="logo">
+            
+            <!-- Texto "LOGIN" -->
+            <p class="login-text">LOGIN</p>
+            
+            <!-- Formulário de Login -->
+            <form action="pagina_de_entrada.html" method="GET">
+                <input type="email" name="email" placeholder="Digite seu email" class="input-field" required>
+                <input type="password" name="senha" placeholder="Digite sua senha" class="input-field" required>
+                
+                <!-- Texto com link de criação de conta -->
+                <div class="signup-link">
+                    <p>Ainda não tem uma conta? <a href="criar_conta.html" class="link-signup">Crie uma</a></p>
+                </div>
+                
+                <!-- Botão de Entrar -->
+                <button type="submit" class="login-btn">Entrar</button>
+
+                <div class="l-link">
+                    <a href="index.html" class="link-signup">CHATGPT</a>
+                    <a href="gemini.html" class="link-signup">GEMINI</a>
+                    <a href="deepseek.html" class="link-signup">DeepSeek</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+

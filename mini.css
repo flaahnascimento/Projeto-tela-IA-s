@@ -1,0 +1,39 @@
+body {
+    background-color: #1b1c30;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.input-field {
+    margin-bottom: 15px;
+    background-color: #2a2b38;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #77c97b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    width: 120px;
+}
+
+
+.l-link{
+    margin-top: 20px; 
+  margin-bottom: 15px; 
+  
+}
